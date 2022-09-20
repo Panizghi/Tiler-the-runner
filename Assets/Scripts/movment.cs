@@ -10,7 +10,7 @@ public class movment : MonoBehaviour
 
     void Start()
     {
-        myRigidbody = GetComponnent<Rigidbody2D>;
+        myRigidbody = GetComponent<Rigidbody2D>();
     }
 
    
@@ -26,7 +26,7 @@ public class movment : MonoBehaviour
     }
 
     void Run(){
-        Vector2 PlayerVelocity = new Vectro2 ( moveInput.x,0f);
+        Vector2 PlayerVelocity = new Vector2 ( moveInput.x,0f);
         myRigidbody.velocity = PlayerVelocity;
     }
 }
