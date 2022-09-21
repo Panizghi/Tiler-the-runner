@@ -8,6 +8,9 @@ public class movment : MonoBehaviour
 
     Rigidbody2D myRigidbody;
 
+
+    // increamenting the speed 
+    [SerializeField] float runSpeed = 10f;
     void Start()
     {
         myRigidbody = GetComponent<Rigidbody2D>();
@@ -16,7 +19,7 @@ public class movment : MonoBehaviour
    
     void Update()
     {
-        
+        Run();
     }
 
    void OnMove(InputValue value){
@@ -26,7 +29,8 @@ public class movment : MonoBehaviour
     }
 
     void Run(){
-        Vector2 PlayerVelocity = new Vector2 ( moveInput.x,0f);
+        Vector2 PlayerVelocity = new Vector2 ( moveInput.x * runSpeed ,myRigidbody.velocity.y);
+        //keep the y speed as it was so the player wont fall into the ground slowly 
         myRigidbody.velocity = PlayerVelocity;
     }
 }
