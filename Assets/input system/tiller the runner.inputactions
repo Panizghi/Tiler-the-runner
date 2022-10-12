@@ -269,7 +269,11 @@
                     "path": "<Keyboard>/space",
                     "interactions": "",
                     "processors": "",
+<<<<<<< HEAD
                     "groups": "Keyboard&Mouse",
+=======
+                    "groups": "",
+>>>>>>> d252e08830f3cde2286fd1fe34518765dd05ffae
                     "action": "Jump",
                     "isComposite": false,
                     "isPartOfComposite": false

@@ -11,10 +11,17 @@ TagManager:
   - 
   - Water
   - UI
+<<<<<<< HEAD
   - Ground
   - Climbing
   - 'Player '
   - Background
+=======
+  - 
+  - 
+  - 
+  - 
+>>>>>>> d252e08830f3cde2286fd1fe34518765dd05ffae
   - 
   - 
   - 
@@ -50,9 +57,12 @@ TagManager:
   - name: water
     uniqueID: 1090424317
     locked: 0
+<<<<<<< HEAD
   - name: Climbing
     uniqueID: 2361571121
     locked: 0
+=======
+>>>>>>> d252e08830f3cde2286fd1fe34518765dd05ffae
   - name: player
     uniqueID: 3041289733
     locked: 0

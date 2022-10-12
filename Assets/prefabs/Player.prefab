@@ -15,7 +15,11 @@ GameObject:
   - component: {fileID: 4110120433291935125}
   - component: {fileID: 7857911088874983771}
   - component: {fileID: 8663499556019608373}
+<<<<<<< HEAD
   m_Layer: 8
+=======
+  m_Layer: 0
+>>>>>>> d252e08830f3cde2286fd1fe34518765dd05ffae
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -47,7 +51,11 @@ Animator:
   m_GameObject: {fileID: 7857911088501913162}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
+<<<<<<< HEAD
   m_Controller: {fileID: 9100000, guid: 9fd2440125aed4e199b9641b5a27c823, type: 2}
+=======
+  m_Controller: {fileID: 9100000, guid: 8cbf97dec7f7c4fe686a8fa09cd0b48f, type: 2}
+>>>>>>> d252e08830f3cde2286fd1fe34518765dd05ffae
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -96,7 +104,11 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1253677563
+<<<<<<< HEAD
   m_SortingLayer: 5
+=======
+  m_SortingLayer: 4
+>>>>>>> d252e08830f3cde2286fd1fe34518765dd05ffae
   m_SortingOrder: 0
   m_Sprite: {fileID: 943112397, guid: 37ecabcdbb64c4ee6a2edbfb3950e109, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -118,7 +130,11 @@ CapsuleCollider2D:
   m_GameObject: {fileID: 7857911088501913162}
   m_Enabled: 1
   m_Density: 1
+<<<<<<< HEAD
   m_Material: {fileID: 6200000, guid: fb7d9ac61f9674b89bedd1d182e89990, type: 2}
+=======
+  m_Material: {fileID: 0}
+>>>>>>> d252e08830f3cde2286fd1fe34518765dd05ffae
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -140,7 +156,11 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
+<<<<<<< HEAD
   m_GravityScale: 6
+=======
+  m_GravityScale: 8
+>>>>>>> d252e08830f3cde2286fd1fe34518765dd05ffae
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -188,6 +208,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6931ccc5033d44a00ab68955cf0e6694, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   runSpeed: 7
   JumpSpeed: 20
   ClimbSpeed: 5
+=======
+  runSpeed: 10
+  JumpSpeed: 20
+>>>>>>> d252e08830f3cde2286fd1fe34518765dd05ffae
